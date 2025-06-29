@@ -1,1 +1,2 @@
-# Revesi
+# Reversi
+UniTask,DOTween
