@@ -16,7 +16,7 @@ public class ReversiManager : MonoBehaviour
         {
             for(int y = 0; y < FIELD_SIZE_X; y++)
             {
-                var sprite = Instantiate(reversiGameObjects, new Vector3(-1.122f * x, 0.5f, -1.122f * y), Quaternion.Euler(70, 0, 0));
+                var sprite = Instantiate(reversiGameObjects, new Vector3(-1.122f * x, 0.05f, -1.122f * y), Quaternion.Euler(0, 0, 0));
             }
         }
     }
